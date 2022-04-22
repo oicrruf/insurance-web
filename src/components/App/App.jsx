@@ -1,17 +1,11 @@
-import React from 'react';
+import React from "react";
 // import React, {Component} from 'react';
 // import '/App.css'
 // import logo from './logo.svg';
-import { Home } from './components/Home'
-
-
+import { Home } from "../Home";
 
 function App() {
-  return (
-
-     <Home/>
-
-  );
+  return <Home />;
 }
 
 export default App;

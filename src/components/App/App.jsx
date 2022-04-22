@@ -1,11 +1,15 @@
 import React from "react";
-// import React, {Component} from 'react';
-// import '/App.css'
-// import logo from './logo.svg';
 import { Home } from "../Home";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "../../themeConfig";
+import './styles.sass'
 
 function App() {
-  return <Home />;
+  return (
+    <ThemeProvider theme={theme}>
+      <Home />
+    </ThemeProvider>
+  );
 }
 
 export default App;

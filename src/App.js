@@ -1,14 +1,16 @@
 import React from 'react';
+// import React, {Component} from 'react';
+// import '/App.css'
 // import logo from './logo.svg';
-import './App.css';
+import { Home } from './components/Home'
 
-import {Home} from './components/home'
+
 
 function App() {
   return (
-    <div className="container">
-     <Home />
-    </div>
+
+     <Home/>
+
   );
 }
 
